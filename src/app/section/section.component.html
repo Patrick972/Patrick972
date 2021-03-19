@@ -1,0 +1,21 @@
+<div id="store">
+    <figure class="card" *ngFor="let product of tbProducts">
+        <img src="{{product.image}}" alt="" class="cardImg">
+        <div class="cardName">{{product.name}}
+        </div>
+        <div class="cardPrice">
+            {{product.price}}
+        </div>
+        <div class="cardPromo">
+            {{product.promo}}
+        </div>
+        <div class="cardDesc">
+            {{product.desc}}
+        </div>
+        <button>Ajouter au panier</button>
+    </figure>
+</div>
+    
+ 
+    
+    
